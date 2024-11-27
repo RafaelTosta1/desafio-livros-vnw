@@ -6,9 +6,7 @@
   justify-content: space-between;
   padding-left: 12px;
   padding-right: 12px;
-  border: 2px solid red;
   .logoHeader {
-    border: 2px solid yellow;
     color: white;
     font-size: 20px;
     gap: 10px;
@@ -18,8 +16,10 @@
 }
 
 .navHeader {
+
   .link{
     color: white;
-    display: flex;
   }
 }
+
+
