@@ -6,6 +6,7 @@
   justify-content: space-between;
   padding-left: 12px;
   padding-right: 12px;
+
   .logoHeader {
     color: white;
     font-size: 20px;
@@ -16,6 +17,13 @@
 }
 
 .navHeader {
+  width: 50vw;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+  }
   .link{
     color: white;
   }
@@ -23,6 +31,21 @@
 
 .barraDeBusca {
   border: 2px solid white;
-  border-radius: 5px;
-  
+  border-radius: 10px;
+  width: 15vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  button{
+    background-color: transparent;
+    border: none;
+  }
+  input{
+    background-color: transparent;
+    border: none;
+    &::placeholder {
+      color: white;
+    }
+  }
 }
