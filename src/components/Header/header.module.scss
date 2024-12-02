@@ -42,10 +42,84 @@
     border: none;
   }
   input{
+    width: 12vw;
     background-color: transparent;
     border: none;
+   font-size: 15px;
+    color: white;
     &::placeholder {
       color: white;
+    }
+  }
+}
+
+@media(max-width: 1001px) {
+  .logoHeader{
+    width: 25vw;
+    h1 {
+      font-size: 1.9vw;
+    }
+    img {
+      width: 5vw;
+    }
+  }
+
+  .navHeader {
+    ul {
+      font-size: 1.7vw;
+    }
+  }
+
+  .barraDeBusta {
+    width: 18vw;
+    input{
+    &::placeholder{
+      font-size: 1.2vw;
+    }
+   }
+  }
+}
+
+@media(max-width: 760px) {
+  header {
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .barraDeBusca {
+    display: none;
+  }
+  .logoHeader{
+    width: 80%;
+    justify-content: space-evenly;
+    h1 {
+      font-size: 25px;
+    }
+    img {
+      width: 60px;
+    }
+  }
+
+  .navHeader {
+    width: 100%;
+    ul {
+      justify-content: space-evenly;
+      font-size: 2.5vw;
+    }
+  }
+}
+
+@media(max-width: 1200px) {
+  .banner {
+    background-size: cover;
+  }
+}
+
+@media(max-width: 860px) {
+  .banner {
+    .banner {
+      background-image: url("../../assets/secondbanner.png");
+      background-position: center;
     }
   }
 }
